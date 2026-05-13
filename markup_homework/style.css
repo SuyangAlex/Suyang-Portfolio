@@ -94,6 +94,17 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 24px;
+}
+
+.content .info a{
+    text-decoration: none;
+    color: black;
+}
+
+.content .info a:hover{
+    text-decoration: none;
+    color: #DC700F;
 }
 
 .content .info {
@@ -113,7 +124,7 @@ table {
     margin-bottom: 4px;
 }
 
-.data{
+.content .info .data{
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
@@ -121,9 +132,64 @@ table {
 
 .views-shares {
     display: flex;
+    justify-content: center;
 }
 
-.views-shares p{
+.views-shares img, .views-shares p {
+    margin-left: 8px;
+}
+
+.info .data p{
+    margin-bottom: 0;
+}
+
+.data .views-shares p{
     padding-left: 3px;
     letter-spacing: 2%;
+    margin-bottom: 0px;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    width: 1296px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.footer .page a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+}
+
+.footer .page a:hover {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 12px;
+    color: #DC700F;
+}
+
+.footer .page a:focus {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 12px;
+    color: white;
+    background-color: #404040;
+    border-radius: 50%;
 }
